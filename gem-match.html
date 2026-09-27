@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f5">
+  <meta name="description" content="在线阅读、复制或下载今日能量宝石三消 Codex 提示词包。">
+  <title>今天你是什么宝石？· 闪亮的 uu</title>
+  <link rel="stylesheet" href="./fluent.css">
+</head>
+<body id="top" class="prompt-page">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="./index.html" aria-label="返回闪亮的 uu 的仓库">
+        <span class="brand-mark" aria-hidden="true">uu</span>
+        <span class="brand-name">闪亮的 uu <span>的仓库</span></span>
+      </a>
+      <a class="back-link" href="./index.html"><span aria-hidden="true">←</span> 返回仓库</a>
+    </div>
+  </header>
+
+  <main class="container prompt-container">
+    <nav class="breadcrumb" aria-label="面包屑"><a href="./index.html">项目提示词</a><span>/</span><span>今天你是什么宝石？</span></nav>
+    <section class="prompt-heading">
+      <p class="eyebrow"><span class="count-pill">01</span> CODEX PROMPT PACK</p>
+      <h1>今天你是什么宝石？</h1>
+      <p>从空白文件夹出发，制作一款能试玩、能消除、能生成今日能量报告的手机网页小游戏。</p>
+      <div class="prompt-tags"><span>HTML / CSS / JavaScript</span><span>75 秒三消</span><span>报告卡生成</span></div>
+    </section>
+
+    <section class="how-to how-to-detail" aria-labelledby="detail-howto-title">
+      <div class="how-to-heading"><span class="how-to-icon" aria-hidden="true">i</span><h2 id="detail-howto-title">怎么用</h2><span>按顺序复制，新手也能开始</span></div>
+      <ol>
+        <li><span>1</span><p>在 Codex 中打开一个<strong>空白文件夹</strong>，作为新项目工作区。</p></li>
+        <li><span>2</span><p>在“主提示词”代码块旁点击<strong>复制本段</strong>，把它交给 Codex。</p></li>
+        <li><span>3</span><p>完成后实际试玩；再从文档中挑选迭代提示词，一次完善一个细节。</p></li>
+      </ol>
+      <p class="how-to-tip">不需要旧游戏代码、素材或服务器。每轮修改后都试玩一下，效果会更稳。</p>
+    </section>
+
+    <section class="prompt-tools" aria-label="提示词操作">
+      <div class="load-status"><span class="status-dot"></span><span id="load-status">正在准备提示词…</span></div>
+      <div class="tool-buttons">
+        <button class="button button-primary" id="copy-prompt" type="button" disabled>复制完整提示词包 <span aria-hidden="true">⧉</span></button>
+        <a class="button button-secondary" href="./prompts/gem-match.md" download>下载 Markdown <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <article class="prompt-document surface" id="prompt-document" aria-live="polite">
+      <div class="document-loading"><span class="loading-icon" aria-hidden="true">✦</span><p>提示词正在加载…</p></div>
+    </article>
+
+    <aside class="rights-note"><span class="rights-icon" aria-hidden="true">ⓘ</span><p><strong>使用与转载说明</strong><br>本提示词包仅供个人学习与体验。未经“闪亮的 uu”许可，不得转载、改编、二次分发或用于商业用途。</p></aside>
+    <a class="bottom-back" href="./index.html">← 返回提示词仓库</a>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <footer class="container footer">
+    <span>© 2026 闪亮的 uu</span>
+    <span>请尊重创作，不转载、不改编、不商用。</span>
+    <a href="#top">返回顶部 ↑</a>
+  </footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>
