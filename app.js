@@ -1,4 +1,4 @@
-const sourcePath = './prompts/gem-match.md';
+const sourcePath = document.body.dataset.promptSource || './prompts/gem-match.md';
 const documentHost = document.querySelector('#prompt-document');
 const statusLabel = document.querySelector('#load-status');
 const copyButton = document.querySelector('#copy-prompt');
